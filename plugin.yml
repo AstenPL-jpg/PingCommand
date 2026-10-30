@@ -1,0 +1,9 @@
+name: PingCommand
+version: 1.0.0
+main: pl.ping.PingPlugin
+api-version: '26.3'
+description: Komenda /ping pokazująca własny ping gracza.
+commands:
+  ping:
+    description: Pokazuje Twój aktualny ping
+    usage: /ping
